@@ -1,0 +1,192 @@
+:root {
+    --bs-body-font-weight: 400;
+}
+
+nav{
+    font-family: "Caudex", serif;
+    font-weight: bolder;
+    height: 70px;
+}
+.navbar-brand{
+    font-size: 1.5rem !important;
+}
+
+main{
+    font-family: "Caudex", serif;
+    font-weight: 500;
+    background-color: #d9e8ff;
+}
+
+.section-head{
+    font-weight: bolder;
+}
+::-webkit-scrollbar {
+    width: 5px !important;
+    height: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00a2ff; 
+    border-radius: 10px; 
+}
+
+section.one{
+    height: 100vh;
+    position: relative;
+
+}
+section.one h2, p, button{
+    text-align: center;
+    margin: auto !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+}
+section.one button{
+    background-color: #47bdff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #00273d;
+}
+section.one button:hover{
+    background-color: #00a2ff;
+    color: inherit;
+}
+
+section.two{
+    height: 100vh;
+    position: relative;
+}
+.two-card{
+    border-radius: 12px !important;
+    background: linear-gradient(white, #ffffff00) !important;
+    border: none !important;
+    padding: 45px 0px;
+}
+.two-card i{
+    font-size: 2rem;
+    color: #00a2ff;
+    background-color: #00a2ff41;
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+section.three{
+    height: 100vh;
+    position: relative;    
+}
+.three-card{
+    border-radius: 12px !important;
+    background: linear-gradient(white, #ffffff00) !important;
+    border: none !important;
+    padding: 45px 25px !important;
+}
+.three-card i{
+    font-size: 2rem;
+    color: #00a2ff;
+    background-color: #00a2ff41;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section.four{
+    height: 100vh;
+    position: relative;
+}
+.four-card{
+    border-radius: 12px !important;
+    background: linear-gradient(white, #ffffff00) !important;
+    border: none !important;
+    padding: 45px 25px !important;
+}
+.four-card i{
+    font-size: 2rem;
+    color: #00a2ff;
+    background-color: #00a2ff41;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    font-family: "Caudex", serif;
+    font-weight: bolder;
+    background-color: #d9e8ff;
+    padding: 20px;
+    border-top: 1px solid #00213548;
+}
+footer h6.text-uppercase{
+    font-weight: bolder !important;
+    font-size: 1.3rem !important;
+}
+footer p, a{
+    font-size: 1.1rem !important;
+}
+
+hr{
+    width: 60px;
+    background-color: #00a2ff;
+    height: 2px !important;
+}
+
+
+@media (max-width: 991px) {
+    section.three{
+        margin-top: 200px;
+    }
+    section.four{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    section.one h2{
+        font-size: 3rem !important;
+    }
+    section.one p{
+        width: 70%;
+    }
+    .foot-img{
+        width: 200px !important;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    section.one h2{
+        font-size: 2.5rem !important;
+    }
+    .section-head{
+        font-size: 1.5rem;
+    }
+    section.two{
+        margin-top: 220px;
+    }
+    .two-card h4{
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    section.three{
+        margin-top: 750px;
+    }
+    section.four{
+        margin-top: 400px;
+    }
+    section.four p{
+        font-size: 1rem !important;
+        width: 70%;
+    }
+    .foot-img{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    section.one h2{
+        font-size: 2rem !important;
+    }
+    section.three{
+        margin-top: 1000px;
+    }
+    section.four{
+        margin-top: 700px;
+    }
+}

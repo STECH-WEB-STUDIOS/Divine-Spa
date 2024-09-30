@@ -6,15 +6,20 @@ nav{
     font-family: "Caudex", serif;
     font-weight: bolder;
     height: 70px;
+    background-color: #060000 !important;
 }
 .navbar-brand{
     font-size: 1.5rem !important;
+}
+.navbar a{
+    color: #dbd39c !important;
 }
 
 main{
     font-family: "Caudex", serif;
     font-weight: 500;
-    background-color: #d9e8ff;
+    background-color: #060000 !important;
+    color: #dbd39c;
 }
 
 .section-head{
@@ -23,9 +28,10 @@ main{
 ::-webkit-scrollbar {
     width: 5px !important;
     height: 3px;
+    background-color: #060000;
 }
 ::-webkit-scrollbar-thumb {
-    background: #00a2ff; 
+    background: #dbd39c;
     border-radius: 10px; 
 }
 
@@ -41,15 +47,21 @@ section.one h2, p, button{
     margin-bottom: 20px !important;
 }
 section.one button{
-    background-color: #47bdff;
+    background: linear-gradient(45deg, #e6b53b, #ffe449);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
-    color: #00273d;
+    color: #130000;
+    font-weight: bolder;
 }
 section.one button:hover{
-    background-color: #00a2ff;
-    color: inherit;
+    background: linear-gradient(45deg, #ffe449, #e6b53b);
+    color: #130000;
+}
+section.one button:active{
+    background-color: #060000 !important;
+    color: #dbd39c !important;
+    border: none !important;
 }
 
 section.two{
@@ -57,17 +69,21 @@ section.two{
     position: relative;
 }
 .two-card{
-    border-radius: 12px !important;
-    background: linear-gradient(white, #ffffff00) !important;
+    border-radius: 30px !important;
+    background: radial-gradient(circle, #f8b00835 15%, #060000 100%, #060000 -100%, #060000 -100%) !important;
     border: none !important;
-    padding: 45px 0px;
+    padding: 10px 5px;
 }
-.two-card i{
+/* .two-card i{
     font-size: 2rem;
-    color: #00a2ff;
-    background-color: #00a2ff41;
+    color: #ffe449;
+    background-color: #ffe4494f;
     padding: 20px;
     border-radius: 10px;   
+} */
+
+.two-card img{
+    border-radius: 15px;
 }
 
 section.three{
@@ -75,15 +91,15 @@ section.three{
     position: relative;    
 }
 .three-card{
-    border-radius: 12px !important;
-    background: linear-gradient(white, #ffffff00) !important;
+    border-radius: 50px !important;
+    background: radial-gradient(circle, #f8b00835 15%, #060000 100%, #060000 -100%, #060000 -100%) !important;
     border: none !important;
     padding: 45px 25px !important;
 }
 .three-card i{
     font-size: 2rem;
-    color: #00a2ff;
-    background-color: #00a2ff41;
+    color: #ffe449;
+    background-color: #ffe4494f;
     padding: 20px;
     border-radius: 10px;
 }
@@ -93,38 +109,50 @@ section.four{
     position: relative;
 }
 .four-card{
-    border-radius: 12px !important;
-    background: linear-gradient(white, #ffffff00) !important;
+    border-radius: 50px !important;
+    background: radial-gradient(circle, #f8b00835 15%, #060000 100%, #060000 -100%, #060000 -100%) !important;
     border: none !important;
-    padding: 45px 25px !important;
+    padding: 35px !important;
 }
-.four-card i{
+/* .four-card i{
     font-size: 2rem;
-    color: #00a2ff;
-    background-color: #00a2ff41;
+    color: #ffe449;
+    background-color: #ffe4494f;
     padding: 20px;
     border-radius: 10px;
+} */
+
+.four-card img{
+    border-radius: 15px;
 }
 
 footer{
     font-family: "Caudex", serif;
     font-weight: bolder;
-    background-color: #d9e8ff;
+    background-color: #060000;
     padding: 20px;
     border-top: 1px solid #00213548;
 }
 footer h6.text-uppercase{
     font-weight: bolder !important;
     font-size: 1.3rem !important;
+    color: #dbd39c !important;
 }
 footer p, a{
     font-size: 1.1rem !important;
+    color: #dbd39c !important;
 }
 
 hr{
     width: 60px;
-    background-color: #00a2ff;
+    background-color: #e6b53b;
     height: 2px !important;
+}
+p.logo-txt{
+    color: #dbd39c !important;
+}
+.foot-img{
+    filter: invert();
 }
 
 
@@ -158,22 +186,27 @@ hr{
         font-size: 1.5rem;
     }
     section.two{
-        margin-top: 220px;
+        height: auto;
     }
     .two-card h4{
         font-size: 1.2rem;
         font-weight: bolder;
     }
     section.three{
-        margin-top: 750px;
+        height: auto;
     }
     section.four{
-        margin-top: 400px;
+        height: auto;
     }
     section.four p{
         font-size: 1rem !important;
         width: 70%;
     }
+
+    .two-card, .three-card, .four-card{
+        border-radius: 10px !important;
+    }
+
     .foot-img{
         margin-top: 50px;
     }

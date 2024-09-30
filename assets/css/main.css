@@ -151,8 +151,8 @@ hr{
 p.logo-txt{
     color: #dbd39c !important;
 }
-.foot-img{
-    filter: invert();
+.stech{
+    filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(359deg) brightness(90%);
 }
 
 

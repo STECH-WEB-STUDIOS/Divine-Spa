@@ -3,10 +3,15 @@
 }
 
 nav{
-    font-family: "Caudex", serif;
-    font-weight: bolder;
+    font-family: "Caudex", serif;        
+}
+.custom-navbar {
+    background-color: #060000;
+    padding: 10px 20px;
     height: 70px;
-    background-color: #060000 !important;
+    width: 100%;
+    font-weight: bolder;
+    position: fixed !important;
 }
 .navbar-brand{
     font-size: 1.5rem !important;
@@ -212,14 +217,56 @@ p.logo-txt{
     }
 }
 
+@media (max-width: 420px) {
+    section.two{
+        height: auto;
+    }
+    section.three{
+        height: auto;
+    }
+    section.four{
+        height: auto;
+    }
+}
+
 @media (max-width: 400px) {
     section.one h2{
         font-size: 2rem !important;
     }
+    section.two{
+        height: auto;
+    }
     section.three{
-        margin-top: 1000px;
+        height: auto;
     }
     section.four{
-        margin-top: 700px;
+        height: auto;
     }
+}
+
+
+@media (max-height: 850px) {
+    /* body{
+        background-color: #060000 !important;
+    }
+    footer{
+        margin-top: 100px;
+    } */
+
+    section.two{
+        height: auto;
+    }
+    section.three{
+        height: auto;
+    }
+    section.four{
+        height: auto;
+    }
+
+}
+
+@media (max-height: 560px) {
+    /* footer{
+        margin-top: 200px;
+    } */
 }

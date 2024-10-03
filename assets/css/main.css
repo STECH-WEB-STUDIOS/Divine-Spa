@@ -79,13 +79,6 @@ section.two{
     border: none !important;
     padding: 10px 5px;
 }
-/* .two-card i{
-    font-size: 2rem;
-    color: #ffe449;
-    background-color: #ffe4494f;
-    padding: 20px;
-    border-radius: 10px;   
-} */
 
 .two-card img{
     border-radius: 15px;
@@ -119,13 +112,6 @@ section.four{
     border: none !important;
     padding: 35px !important;
 }
-/* .four-card i{
-    font-size: 2rem;
-    color: #ffe449;
-    background-color: #ffe4494f;
-    padding: 20px;
-    border-radius: 10px;
-} */
 
 .four-card img{
     border-radius: 15px;
@@ -246,13 +232,6 @@ p.logo-txt{
 
 
 @media (max-height: 850px) {
-    /* body{
-        background-color: #060000 !important;
-    }
-    footer{
-        margin-top: 100px;
-    } */
-
     section.two{
         height: auto;
     }
@@ -263,10 +242,4 @@ p.logo-txt{
         height: auto;
     }
 
-}
-
-@media (max-height: 560px) {
-    /* footer{
-        margin-top: 200px;
-    } */
 }
